@@ -38,6 +38,7 @@ const blocks = [
     image: img("Wml6UGLdyWDd0PsWkOix18FVrM"),
     alt: "Jan Veselý, Kolo pro život",
     imageLeft: false,
+    objectPos: "top",
     paragraphs: [
       "Kromě běhu jsem se občas zúčastnil i závodů na horských kolech v rámci seriálu Kolo pro život, kde se mi dokonce podařilo jeden závod na 32 km vyhrát.",
     ],
@@ -73,9 +74,9 @@ const blocks = [
             src={b.image}
             alt={b.alt}
             loading="lazy"
-            class={`w-full rounded-3xl border border-line object-cover ${
-              b.imageLeft ? "" : "md:order-2"
-            }`}
+            class={`aspect-[4/3] w-full rounded-3xl border border-line object-cover ${
+              b.objectPos === "top" ? "object-top" : "object-center"
+            } ${b.imageLeft ? "" : "md:order-2"}`}
           />
           <div class={b.imageLeft ? "" : "md:order-1"}>
             {b.paragraphs.map((p) => (
