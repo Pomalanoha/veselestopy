@@ -1,6 +1,6 @@
 ---
 title: 'Návrat k plnému tréninku a ladění formy na pardubickou desítku'
-description: 'Mám za sebou týden, který bych označil za malý osobní vítězství. Po dvou náročnějších týdnech, kdy se mi vždycky něco připletlo do tréninku (a musel jsem jeden trénink vynechat), s'
+description: 'Mám za sebou týden, který bych označil za malý osobní vítězství. Po dvou náročnějších týdnech, kdy se mi vždycky něco připletlo do tréninku (a musel jsem jeden trénink vynechat), se tentokrát povedlo splnit plán na 100 % – a k tomu jsem si přidal jeden volný běh navíc pro radost. Někdy to člověku…'
 date: 2025-04-14
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/des5JiCVZOM81yNeL8hiT8LGciQ.jpg'

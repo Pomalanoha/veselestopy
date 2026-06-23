@@ -1,6 +1,6 @@
 ---
 title: 'Ladění formy, kopce a neonově růžová taktika! 🏃‍♂️💨🔥'
-description: 'Tento týden už nebyl o nesmyslných objemech, ale o chytré kvalitě. Šlo o ten křehký balanc mezi udržením rychlosti a zároveň nechat tělo odpočinout před hlavním závodem. Tréninky b'
+description: 'Tento týden už nebyl o nesmyslných objemech, ale o chytré kvalitě. Šlo o ten křehký balanc mezi udržením rychlosti a zároveň nechat tělo odpočinout před hlavním závodem. Tréninky byly zaměřené tak, aby podpořily závodní tempa a udržely nohy v pozoru, aniž by došlo k přetížení. Začínáme ladit a…'
 date: 2025-10-05
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/bzXdeySkjZ6loAsX5ESFb5EKxM.png'

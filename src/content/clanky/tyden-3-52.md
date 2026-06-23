@@ -1,6 +1,6 @@
 ---
 title: 'Týden 3/52'
-description: 'Třetí týden přípravy na maraton pod 3 hodiny je úspěšně za mnou – a můžu říct, že to bylo super v mnoha ohledech. Nejenže se mi podařilo odběhat (respektive odtrénovat) všechno pod'
+description: 'Třetí týden přípravy na maraton pod 3 hodiny je úspěšně za mnou – a můžu říct, že to bylo super v mnoha ohledech. Nejenže se mi podařilo odběhat (respektive odtrénovat) všechno podle plánu, ale taky jsem si dopřál skvělou změnu: skialpový výlet do Krkonoš. Jak k tomu došlo? Můj trenér David a já…'
 date: 2024-11-20
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/ltijEWFBx1Lk4NyHpiCwq50PfI.jpg'

@@ -1,6 +1,6 @@
 ---
 title: 'Intervaly, deště a únava pod kontrolou 🌧💨🔥'
-description: 'Když jsem si otevřel tréninkový plán a viděl, co všechno mě čeká, řekl jsem si jediné: „Tohle bude bolet.“ Ale právě náročné týdny jsou klíčem k pokroku. David postupně zvyšuje nár'
+description: 'Když jsem si otevřel tréninkový plán a viděl, co všechno mě čeká, řekl jsem si jediné: „Tohle bude bolet.“ Ale právě náročné týdny jsou klíčem k pokroku. David postupně zvyšuje náročnost, tělo si zvyká pracovat i v únavě a právě tahle adaptace rozhoduje v závodě. Pojďme to vzít den po dni. ⬇️ Týden…'
 date: 2025-07-14
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/CyNlkljc7u33QMCtCrlPqtQiSQU.jpg'

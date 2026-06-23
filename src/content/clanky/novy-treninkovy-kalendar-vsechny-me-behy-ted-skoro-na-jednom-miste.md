@@ -1,6 +1,6 @@
 ---
 title: 'Nový tréninkový kalendář: Všechny mé běhy teď (skoro) na jednom místě!'
-description: 'Ahoj všem běžcům a běžkyním,'
+description: 'Ahoj všem běžcům a běžkyním, dnes pro vás mám jednu skvělou novinku, o kterou se chci podělit. Mnozí z vás sledují můj veřejný tréninkový kalendář, kde sdílím své plánované i odběhané tréninky. Dosud měl ale jednu velkou nevýhodu - starší tréninky po nějaké době mizely a nebylo možné se k nim…'
 date: 2025-08-26
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/pjUMjLwym8i84eYrKuFJT9ztKqQ.png'

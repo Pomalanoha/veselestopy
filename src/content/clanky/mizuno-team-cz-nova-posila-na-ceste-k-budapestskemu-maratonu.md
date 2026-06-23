@@ -1,6 +1,6 @@
 ---
 title: 'Mizuno Team CZ: Nová posila na cestě k budapešťskému maratonu'
-description: 'Příprava na budapešťský maraton se rozjíždí na plné obrátky a já se s vámi chci podělit o další skvělou novinku, která mi pomůže v cestě za mým cílem - zaběhnout maraton pod 3 hodi'
+description: 'Příprava na budapešťský maraton se rozjíždí na plné obrátky a já se s vámi chci podělit o další skvělou novinku, která mi pomůže v cestě za mým cílem - zaběhnout maraton pod 3 hodiny. Kromě spolupráce s trenérem Davidem Vašem jsem se totiž stal i hrdým členem Mizuno Teamu CZ! Pro běžce je kvalitní…'
 date: 2024-11-16
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/IUAewityvYFAaPeqZgFUfcD3VM.png'

@@ -1,6 +1,6 @@
 ---
 title: 'Flow, prase v lese a špatný gel 🏃‍♂️🌲😅'
-description: 'Další týden přípravy je za mnou a byl to mix všeho – únava, běžecká flow, setkání s divočáky, experiment se stravou a nakonec i solidní porce kilometrů. Přesně takhle má vypadat př'
+description: 'Další týden přípravy je za mnou a byl to mix všeho – únava, běžecká flow, setkání s divočáky, experiment se stravou a nakonec i solidní porce kilometrů. Přesně takhle má vypadat příprava – někdy to bolí, někdy se smějete a jindy se učíte ze svých chyb. Ale pořád jdete dopředu. 🚀 Začátek týdne nebyl…'
 date: 2025-09-01
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/EjeZniSFzIco7sWnbDP5ZekHZls.jpg'

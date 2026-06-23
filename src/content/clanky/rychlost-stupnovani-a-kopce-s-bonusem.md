@@ -1,6 +1,6 @@
 ---
 title: 'Rychlost, stupňování a kopce s bonusem 💨⛰💪'
-description: 'Tento týden bych shrnul jako rychlý, strukturovaný a občas i pěkně bolavý – ale v tom nejlepším slova smyslu. David mi do plánu opět naservíroval kombinaci kvalitních běhů, plyomet'
+description: 'Tento týden bych shrnul jako rychlý, strukturovaný a občas i pěkně bolavý – ale v tom nejlepším slova smyslu. David mi do plánu opět naservíroval kombinaci kvalitních běhů, plyometrie i posilování, a já měl radost, že všechno šlapalo jak mělo. Výkonnostní tréninky jsem odběhal s rezervou, což je…'
 date: 2025-07-07
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/EjeZniSFzIco7sWnbDP5ZekHZls.jpg'

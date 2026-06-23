@@ -1,6 +1,6 @@
 ---
 title: 'Další tréninkový týden: 100% odběháno, rodinné radosti a zasloužený odpočinek'
-description: 'Další tréninkový týden: 100% odběháno, rodinné radosti a zasloužený odpočinek'
+description: 'Další tréninkový týden: 100% odběháno, rodinné radosti a zasloužený odpočinek Další týden přípravy je za mnou – a musím říct, že jsem na sebe vážně hrdý. Přestože jsem musel přes polovinu týdne obstarávat obě děti (manželka si bohužel vybrala „volno“ s angínou), podařilo se mi odtrénovat úplně…'
 date: 2024-12-16
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/k7vtBOBds4KwKdUoFFOZcbuSPFA.jpg'

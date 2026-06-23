@@ -1,6 +1,6 @@
 ---
 title: 'Cíl v dohledu a příběh maratonu 🏁🔥'
-description: 'Poslední týden před maratonem bývá klíčový – nejen fyzicky, ale hlavně mentálně. Všechny měsíce příprav se schylují ke zkoušce, která trvá pár hodin, ale v hlavě ji člověk běží mno'
+description: 'Poslední týden před maratonem bývá klíčový – nejen fyzicky, ale hlavně mentálně. Všechny měsíce příprav se schylují ke zkoušce, která trvá pár hodin, ale v hlavě ji člověk běží mnohem déle. Tento týden mi ukázal, že ani dokonalý plán se neobejde bez překážek. Ale právě ty z nás dělají silnější…'
 date: 2025-10-15
 categories: ['zavody', 'tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/nxACndRMAgP6gVBmpflO7F5mnGA.jpg'

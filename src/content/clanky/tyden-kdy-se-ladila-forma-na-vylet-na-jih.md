@@ -1,6 +1,6 @@
 ---
 title: 'Týden, kdy se ladila forma na "výlet" na jih! 🏃‍♂️💨🔥'
-description: 'Poslední tréninkový týden před velkým závodem a všechno se točilo jen kolem jediné věci - ladění a odpočinek. Cíl byl jasný: dorazit na start s lehkýma nohama a čistou hlavou, přip'
+description: 'Poslední tréninkový týden před velkým závodem a všechno se točilo jen kolem jediné věci - ladění a odpočinek. Cíl byl jasný: dorazit na start s lehkýma nohama a čistou hlavou, připravený ukázat, co se v posledních týdnech natrénovalo. Snížil jsem zátěž, ale neustoupil od kvality, protože finální…'
 date: 2025-09-15
 categories: ['tydenni-report', 'zavody', 'zlomit-3-hodiny']
 cover: '/images/clanky/8ozgC8cRQIp8j7FZNdUwzGcbrP0.jpg'

@@ -1,6 +1,6 @@
 ---
 title: 'Jarní slunce, rychlé tempo a nová letní výbava od Mizuno'
-description: 'Uplynulý týden bych označil jako pořádnou jízdu – a to hned z několika důvodů. Předně na mě čekaly dva kvalitní tréninky, kde jsem si udržoval vyšší tempa a pořádně se vyhecoval. T'
+description: 'Uplynulý týden bych označil jako pořádnou jízdu – a to hned z několika důvodů. Předně na mě čekaly dva kvalitní tréninky, kde jsem si udržoval vyšší tempa a pořádně se vyhecoval. Tyhle rychlé úseky si užívám naplno (tedy do chvíle, kdy tělo začne protestovat a já si v duchu vyčítám, že si radši…'
 date: 2025-03-10
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/TFV0gd5YjR4Ox99kva008afEn20.jpg'

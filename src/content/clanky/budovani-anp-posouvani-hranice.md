@@ -1,6 +1,6 @@
 ---
 title: 'ANP v plných obrátkách, spousta dřiny a radosti z dobře odvedené práce 💪🔥🏃‍♂️'
-description: 'Další týden přípravy a další pořádná dávka práce za mnou! Tento týden byl opravdu přesně ten, kdy si během tréninku několikrát říkáte:"Tohle bolí… ale vím, proč to dělám!"'
+description: 'Další týden přípravy a další pořádná dávka práce za mnou! Tento týden byl opravdu přesně ten, kdy si během tréninku několikrát říkáte: "Tohle bolí… ale vím, proč to dělám!" Celý týden se totiž nesl ve znamení jednoho hlavního cíle: budovat a posouvat hranici ANP (anaerobního prahu). A kdo běhá…'
 date: 2024-12-12
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/zkZoKeIyI4Oxv9hPpBztxs79Qg.png'

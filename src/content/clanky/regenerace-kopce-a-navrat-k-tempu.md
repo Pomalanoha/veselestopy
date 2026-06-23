@@ -1,6 +1,6 @@
 ---
 title: 'Regenerace, kopce a návrat k tempu 💆‍♂️🏃‍♂️⛰️'
-description: 'Po půlmaratonu v Českých Budějovicích jsem věděl, že není čas se hnát dál bez pauzy. Regenerace je stejně důležitá jako samotný trénink, a tak jsem pondělí a úterý nechal úplně vol'
+description: 'Po půlmaratonu v Českých Budějovicích jsem věděl, že není čas se hnát dál bez pauzy. Regenerace je stejně důležitá jako samotný trénink, a tak jsem pondělí a úterý nechal úplně volné. První běh tak přišel až ve středu – volných 50 minut, jen tak na udržení rytmu. Ve čtvrtek následoval volný běh s…'
 date: 2025-06-09
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/WGd6SK075g8OvqYEvyxk2kFG2WY.jpg'

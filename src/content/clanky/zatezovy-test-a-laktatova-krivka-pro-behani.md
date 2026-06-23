@@ -1,6 +1,6 @@
 ---
 title: 'Zátěžový test a laktátová křivka – klíč k lepšímu běhání'
-description: 'Běhání je víc než jen jeden krok za druhým. Ať už jste rekreační běžec, který se chce zlepšit, nebo zkušený závodník s ambicemi na osobní rekordy, dříve či později narazíte na magi'
+description: 'Běhání je víc než jen jeden krok za druhým. Ať už jste rekreační běžec, který se chce zlepšit, nebo zkušený závodník s ambicemi na osobní rekordy, dříve či později narazíte na magické spojení – laktátová křivka. Zátěžový test je pak kompasem, který vám ukáže, jak tuto křivku interpretovat a využít…'
 date: 2025-03-19
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/4aMaK6sigVdGdytakHeI1txKA0.webp'

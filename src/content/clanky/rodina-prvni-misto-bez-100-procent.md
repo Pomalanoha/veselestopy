@@ -1,6 +1,6 @@
 ---
 title: 'Rodina na prvním místě: Poprvé bez 100% tréninku (a proč je to úplně v pořádku)'
-description: 'Tenhle týden byl poprvé za celou dobu přípravy trochu jiný. Poprvé jsem totiž neodtrénoval všechno, co bylo v plánu. A musím říct, že mě to nejdřív trošku mrzelo – člověk si vybudu'
+description: 'Tenhle týden byl poprvé za celou dobu přípravy trochu jiný. Poprvé jsem totiž neodtrénoval všechno, co bylo v plánu. A musím říct, že mě to nejdřív trošku mrzelo – člověk si vybuduje návyk a těší se z každého odškrtnutého tréninku. Jenže trénink není vše, a hlavně rodina je vždy na prvním místě a…'
 date: 2025-03-31
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/YHuASl8uoBi5A4xzzV2CzRpzPHM.jpg'

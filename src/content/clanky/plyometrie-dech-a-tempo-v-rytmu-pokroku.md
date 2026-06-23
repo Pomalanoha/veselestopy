@@ -1,6 +1,6 @@
 ---
 title: 'Plyometrie, dech a tempo v rytmu pokroku 💨🧘‍♂️💥'
-description: 'Tenhle týden patřil k těm opravdu poctivým – náročný, systematický, ale neskutečně naplňující. David opět přidal nové prvky do tréninku, které pomáhají posunout nejen tělo, ale i m'
+description: 'Tenhle týden patřil k těm opravdu poctivým – náročný, systematický, ale neskutečně naplňující. David opět přidal nové prvky do tréninku, které pomáhají posunout nejen tělo, ale i mysl. Vedle klasického posilování (zejména středu těla) přišla řada i na dechová cvičení a hlavně plyometrii – výbušné…'
 date: 2025-06-30
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/ayUhCB5GuVax5rqFs5ONkWTZs.jpg'

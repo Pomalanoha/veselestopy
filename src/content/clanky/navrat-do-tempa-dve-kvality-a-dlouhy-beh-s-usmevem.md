@@ -1,6 +1,6 @@
 ---
 title: 'Návrat do tempa, dvě kvality a dlouhý běh s úsměvem 😎🏃‍♂️'
-description: 'Po týdnu běžeckého detoxu na moři 🛥️ jsem se vrátil zpět do běžecké reality. A světe div se – šlo to parádně! Už v pondělí jsem cítil, že mám nohy svěží, hlava vyklidněná a motiva'
+description: 'Po týdnu běžeckého detoxu na moři 🛥️ jsem se vrátil zpět do běžecké reality. A světe div se – šlo to parádně! Už v pondělí jsem cítil, že mám nohy svěží, hlava vyklidněná a motivace na max. Někdy prostě krátký oddych udělá pro formu víc než stovky kilometrů v zátěži. Blíží se půlmaraton v Českých…'
 date: 2025-05-19
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/0IZa71vLjyTzvD7A0XxPAvmRyo.jpg'

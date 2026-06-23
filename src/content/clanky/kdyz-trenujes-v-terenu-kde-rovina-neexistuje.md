@@ -1,6 +1,6 @@
 ---
 title: 'Když trénuješ v terénu, kde rovina neexistuje 😅'
-description: '...aneb poslední plný týden před Budějovicemi v duchu kopečků, šutrů a kreativních řešení'
+description: '...aneb poslední plný týden před Budějovicemi v duchu kopečků, šutrů a kreativních řešení Tenhle týden byl poslední ostrý tréninkový blok, než přijde čas zvolnit a doladit formu na půlmaraton v Českých Budějovicích. Forma roste, tělo funguje, hlava drží. Ale jak už to bývá – když chceš makat na 100…'
 date: 2025-05-26
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/AnrY2LuewqPidjSo2kcMC8NBwNQ.jpg'

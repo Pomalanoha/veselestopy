@@ -1,6 +1,6 @@
 ---
 title: 'Další týden v plném tempu! 🔥'
-description: 'Tentokrát mám opravdu radost, protože stále zvládám držet 100% plnění tréninkového plánu. Ačkoliv si to možná říkám už poněkolikáté, pořád mě to nepřestává těšit. Velkým tématem up'
+description: 'Tentokrát mám opravdu radost, protože stále zvládám držet 100% plnění tréninkového plánu. Ačkoliv si to možná říkám už poněkolikáté, pořád mě to nepřestává těšit. Velkým tématem uplynulého týdne byly “Střídavé běhy” – jeden mě čekal hned na začátku týdne, druhý těsně před víkendem. Zrovna tyhle…'
 date: 2025-03-17
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/CpzAZq4mmp3HgrjtBShLYlI2CI4.jpg'

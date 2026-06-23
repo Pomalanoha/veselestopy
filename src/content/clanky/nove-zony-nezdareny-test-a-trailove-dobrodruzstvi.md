@@ -1,6 +1,6 @@
 ---
 title: 'Nové zóny, nezdařený test a trailové dobrodružství 🧠💥🌲'
-description: 'Týden začal zprávou, která mě potěšila i trochu znervózněla. David po analýze tréninků upravil moje výkonnostní zóny. Výkonnost jde pomalu, ale jistě nahoru – což je skvělé! Ale zá'
+description: 'Týden začal zprávou, která mě potěšila i trochu znervózněla. David po analýze tréninků upravil moje výkonnostní zóny. Výkonnost jde pomalu, ale jistě nahoru – což je skvělé! Ale zároveň to znamená, že tréninky budou o poznání těžší. A jak známo, kdo chce růst, musí z komfortní zóny ven. Takže jsem…'
 date: 2025-06-23
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/MUmAHONWvs3nzlBhNCRyiGbdCE.png'

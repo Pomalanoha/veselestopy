@@ -1,6 +1,6 @@
 ---
 title: 'Pitevna tréninku: Jak jsem (téměř) dokonale zvládl intervaly 2-0.4-1.2-0.4-1.2-0.4-2km'
-description: 'Ahoj všichni příznivci běhu!'
+description: 'Ahoj všichni příznivci běhu! Dnes bych se s vámi chtěl podělit o trochu detailnější pohled na jeden z mých nedávných tréninků, který mi dal docela zabrat, ale zároveň mi ukázal, že forma tam snad je. Konkrétně šlo o úterní (8. dubna 2025) intervalový trénink, který měl na papíře docela výživnou…'
 date: 2025-04-08
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/mY9iNb4Ad3EXLUNBGkiLlsCGiwE.png'

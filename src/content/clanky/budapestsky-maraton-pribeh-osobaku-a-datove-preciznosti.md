@@ -1,6 +1,6 @@
 ---
 title: 'Budapešťský maraton - příběh osobáku a datové preciznosti'
-description: 'Nedávno jsem si splnil jeden ze svých velkých běžeckých snů - zaběhnout maraton v Budapešti.A přestože vysněná hranice tří hodin tentokrát odolala o pouhých 89 sekund, vím jistě, ž'
+description: 'Nedávno jsem si splnil jeden ze svých velkých běžeckých snů - zaběhnout maraton v Budapešti. A přestože vysněná hranice tří hodin tentokrát odolala o pouhých 89 sekund, vím jistě, že právě tenhle závod mě posunul nejvíc. Nechci tu jen ukázat čas 3:01:29, ale podělit se o příběh každého kilometru…'
 date: 2025-10-17
 categories: ['zavody']
 cover: '/images/clanky/3jYDKuEQdNCC7fSDim0fjnDJb0w.png'

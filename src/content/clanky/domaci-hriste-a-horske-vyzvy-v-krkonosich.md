@@ -1,6 +1,6 @@
 ---
 title: 'Domácí hřiště a horské výzvy v Krkonoších 🏡⛰'
-description: 'Po dvoutýdenní dovolené jsem se konečně vrátil na své domácí hřiště. Upřímně? Těšil jsem se na známé trasy, kde už mě nic nepřekvapí – kde vím, kdy přijde kopeček, kde fouká vítr, '
+description: 'Po dvoutýdenní dovolené jsem se konečně vrátil na své domácí hřiště. Upřímně? Těšil jsem se na známé trasy, kde už mě nic nepřekvapí – kde vím, kdy přijde kopeček, kde fouká vítr, a kde je prostě radost běžet. Zároveň už ale začínám cítit, že příprava míří do finální fáze. Přicházejí tréninky…'
 date: 2025-08-25
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/13f8adWJ68Q6DjtWiTBHJydLLg.jpg'

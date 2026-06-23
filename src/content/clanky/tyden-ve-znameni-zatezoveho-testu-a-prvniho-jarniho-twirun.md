@@ -1,6 +1,6 @@
 ---
 title: 'Zátěžový test a prvníh jarní #twirun!'
-description: 'Pořád se mi daří držet tréninkový plán na 100 %, což mě nesmírně těší a motivuje k dalšímu posouvání hranic. Tenhle týden ale začal trochu neobvykle, protože místo tradičního volna'
+description: 'Pořád se mi daří držet tréninkový plán na 100 %, což mě nesmírně těší a motivuje k dalšímu posouvání hranic. Tenhle týden ale začal trochu neobvykle, protože místo tradičního volna jsem nastoupil na zátěžový test ve Vital-Praha, abych zjistil, jaké je mé reálné tréninkové zatížení a kam jsem se…'
 date: 2025-03-24
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/6Zh1GLIb9uDp6v2vxUV1hWOabk.jpg'

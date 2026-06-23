@@ -19,7 +19,7 @@ const featured = variant === "featured";
       <a
         href={href}
         class={`block shrink-0 overflow-hidden rounded-3xl border border-line ${
-          featured ? "sm:w-1/2" : "sm:w-44"
+          featured ? "relative sm:w-1/2 sm:self-stretch" : "sm:w-44"
         }`}
       >
         <img
@@ -27,7 +27,9 @@ const featured = variant === "featured";
           alt={data.title}
           loading="lazy"
           class={`w-full object-cover transition duration-500 hover:scale-[1.03] ${
-            featured ? "aspect-[4/3]" : "aspect-square"
+            featured
+              ? "aspect-[4/3] sm:absolute sm:inset-0 sm:h-full sm:aspect-auto"
+              : "aspect-square"
           }`}
         />
       </a>

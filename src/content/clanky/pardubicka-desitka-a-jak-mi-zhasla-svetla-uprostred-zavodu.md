@@ -1,6 +1,6 @@
 ---
 title: 'Pardubická desítka a jak mi zhasla světla uprostřed závodu'
-description: 'Každý závodník vám potvrdí, že poslední týden před důležitým závodem je jiný. Intenzita jde dolů, tělo odpočívá a hlava postupně přepíná do módu „závodní pohotovost“. Tenhle týden '
+description: 'Každý závodník vám potvrdí, že poslední týden před důležitým závodem je jiný. Intenzita jde dolů, tělo odpočívá a hlava postupně přepíná do módu „závodní pohotovost“. Tenhle týden byl přesně takový, ale jak se brzy dozvíte, ne všechno šlo podle předem nalajnovaného scénáře. V úterý mě čekal jediný…'
 date: 2025-04-22
 categories: ['tydenni-report', 'zlomit-3-hodiny', 'zavody']
 cover: '/images/clanky/SfQKl6v4tgchlIYylyZVyiNUqE.jpg'

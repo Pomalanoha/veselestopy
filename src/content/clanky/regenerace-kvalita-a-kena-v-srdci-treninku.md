@@ -1,6 +1,6 @@
 ---
 title: 'Regenerace, kvalita a Keňa v srdci tréninku 🇰🇪💨'
-description: 'Po dvou náročných tréninkových blocích přišel konečně lehčí týden, který byl v plánu už nějakou dobu. David mi naplánoval pouhé tři běžecké tréninky, a i když to na papíře vypadá j'
+description: 'Po dvou náročných tréninkových blocích přišel konečně lehčí týden, který byl v plánu už nějakou dobu. David mi naplánoval pouhé tři běžecké tréninky, a i když to na papíře vypadá jako pohoda, každý měl své jasné místo a účel. 🔁 Pravidelné odlehčené týdny nejsou známkou lenosti – naopak. Jsou…'
 date: 2025-07-21
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/pjAprd4r1uBqPWl5ZkJT9ZhLMU.jpg'

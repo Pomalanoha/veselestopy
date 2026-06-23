@@ -1,6 +1,6 @@
 ---
 title: 'Týden sprintů, temp a nového uvědomění: trénink je v pohodě, hlava musí dohnat! 🧠🏃‍♂️'
-description: 'Další týden přípravy je za mnou a musím říct – povedl se skvěle!Tentokrát všechno klaplo podle plánu, bez kompromisů, a hlavně s výborným pocitem z každého tréninku. Přesně to, co '
+description: 'Další týden přípravy je za mnou a musím říct – povedl se skvěle! Tentokrát všechno klaplo podle plánu, bez kompromisů, a hlavně s výborným pocitem z každého tréninku. Přesně to, co člověk potřebuje, aby pokračoval v cestě za velkými cíli. Týden jsem odstartoval pořádnou dávkou intenzity – sprinty…'
 date: 2025-04-28
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/oDrGZKABpCBVfjxZowhNtTKZbA.jpg'

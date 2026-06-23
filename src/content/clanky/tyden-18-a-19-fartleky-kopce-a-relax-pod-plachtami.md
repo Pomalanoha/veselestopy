@@ -1,6 +1,6 @@
 ---
 title: 'Týden 18 a 19: Fartleky, kopce a relax pod plachtami 🚀🌊'
-description: 'Tahle sedmidenní jízda byla prostě učebnicovým příkladem, jak má vypadat kvalitní běžecký týden. Tréninkový plán byl nabitý, ale zároveň perfektně vyvážený. A co je na tom nejlepší'
+description: 'Tahle sedmidenní jízda byla prostě učebnicovým příkladem, jak má vypadat kvalitní běžecký týden. Tréninkový plán byl nabitý, ale zároveň perfektně vyvážený. A co je na tom nejlepší? Cítil jsem se skvěle a každý trénink jsem si fakt užil! Týden jsem odpálil svým oblíbeným tréninkem – stupňovaným…'
 date: 2025-05-12
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/AtAZyYxLMiFR14Gfyzuk3AwEG0.jpg'

@@ -1,6 +1,6 @@
 ---
 title: 'Rychlost u řeky, horské kopce a návrat domů 🏞💨🏠'
-description: 'Po týdnu, kdy jsem se běžecky přesunul z moře do hor, mě čekal další pestrý mix tréninků. Tentokrát jsem se dostal k opravdovým kopcům, rychlým úsekům podél řeky a dokonce i k fart'
+description: 'Po týdnu, kdy jsem se běžecky přesunul z moře do hor, mě čekal další pestrý mix tréninků. Tentokrát jsem se dostal k opravdovým kopcům, rychlým úsekům podél řeky a dokonce i k fartleku, který se běžel rychleji než předepsané tempo. A aby toho nebylo málo - návrat domů znamenal opět trénink na mém…'
 date: 2025-08-11
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/L4OceKPvTtXcbHSrOvl1tkoRw.jpg'

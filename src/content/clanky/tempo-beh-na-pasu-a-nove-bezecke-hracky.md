@@ -1,6 +1,6 @@
 ---
 title: 'Tempo, běh na pásu a nové běžecké hračky'
-description: 'Další tréninkový týden: Tempo, běh na pásu a nové běžecké hračky'
+description: 'Další tréninkový týden: Tempo, běh na pásu a nové běžecké hračky Další týden je za mnou a já s radostí hlásím, že se mi opět podařilo odběhat všechny naplánované tréninky – což je pro mě vždycky malá (ale důležitá) výhra. Tentokrát jsem navíc musel kvůli ne zrovna přátelskému počasí (a úspoře času)…'
 date: 2024-12-08
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/79moI9eKlVQUs9vnoVL69LebykQ.jpg'

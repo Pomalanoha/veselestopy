@@ -1,6 +1,6 @@
 ---
 title: 'Mrazy, led a úspěch na Winter Run'
-description: 'Jan Veselý'
+description: 'Další týden je úspěšně za mnou a opět jsem zvládl splnit tréninkový plán na 100 %, což mě nepřestává udivovat (v dobrém vzhledem k různým chřipkám apod.). Mínusové teploty a led na cestách mě donutily posunout jednodušší výběhy (výklus) na běžecký pás, zatímco rychlejší tréninky jsem absolvoval…'
 date: 2025-01-12
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/79moI9eKlVQUs9vnoVL69LebykQ.jpg'

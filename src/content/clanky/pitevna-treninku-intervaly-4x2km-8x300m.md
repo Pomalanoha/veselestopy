@@ -1,6 +1,6 @@
 ---
 title: 'Pitevna tréninku: Jak jsem si sáhl na dno při intervalech 4x2km a 8x300m'
-description: 'Uf, tak tenhle trénink ze středečního dne budu cítit ještě o víkendu. Znáte to, kouknete do tréninkového plánu a vidíte tam kombinaci čísel, která slibuje jen jedno – bolest. Ale t'
+description: 'Uf, tak tenhle trénink ze středečního dne budu cítit ještě o víkendu. Znáte to, kouknete do tréninkového plánu a vidíte tam kombinaci čísel, která slibuje jen jedno – bolest. Ale takovou tu dobrou, po které víte, že jste pro sebe něco udělali. Dneska se chci s vámi podělit o pocity a data z jednoho…'
 date: 2025-06-12
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/I9wcBOnrEHuGWlH6YDVIzIZPM.png'

@@ -1,6 +1,6 @@
 ---
 title: 'Poslední velký zátah: Intervalové vlny, gely a maratonová forma 🏃‍♂️💨🔥'
-description: 'Před námi je zlomový moment tréninku! Tento týden byl poslední, kde šla tréninková náročnost a kilometráž ještě naplno nahoru. Proč? Protože Budapešťský maraton už klepe na dveře a'
+description: 'Před námi je zlomový moment tréninku! Tento týden byl poslední, kde šla tréninková náročnost a kilometráž ještě naplno nahoru. Proč? Protože Budapešťský maraton už klepe na dveře a my vcházíme do fáze snižování zátěže (tapering). Byl to týden plný kvalitních tempových úseků a ultimátní zkoušky…'
 date: 2025-09-29
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/qpzjg9IwHRDP77QcisdvvuPOE0.jpg'

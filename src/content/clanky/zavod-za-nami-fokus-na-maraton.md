@@ -1,6 +1,6 @@
 ---
 title: 'Závod za námi, fokus na maraton! 🏃‍♂️💨🔥'
-description: 'Závod „Okolo Muňáku“ se povedl a dal mi velkou motivaci do další práce. Jenže to není důvod polevit – hlavní cíl sezóny, Budapešťský maraton, už se blíží a zbývají pouhé 4 týdny. T'
+description: 'Závod „Okolo Muňáku“ se povedl a dal mi velkou motivaci do další práce. Jenže to není důvod polevit – hlavní cíl sezóny, Budapešťský maraton, už se blíží a zbývají pouhé 4 týdny. Teď je čas poskládat poslední stavební kameny, odmakat klíčové tréninky a připravit tělo i hlavu na maratonskou realitu…'
 date: 2025-09-22
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/C05V7LInES1QOnc6bwxJdfJnTU.jpg'

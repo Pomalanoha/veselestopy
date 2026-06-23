@@ -1,6 +1,6 @@
 ---
 title: 'Běh v tropech, hledání kopců a přesun do hor 🌴💦🏔'
-description: 'Po sérii intenzivních týdnů přišla dovolená – ale znáte mě, úplné volno od běhání by to nebylo 😄. Tentokrát se trénink propojil s cestováním a přinesl hned několik zážitků od hork'
+description: 'Po sérii intenzivních týdnů přišla dovolená – ale znáte mě, úplné volno od běhání by to nebylo 😄. Tentokrát se trénink propojil s cestováním a přinesl hned několik zážitků od horkých středomořských rovinek až po deštivé kopce v Německu. Týden byl pestrý a zábavný, i když některé plány musely vzít…'
 date: 2025-08-11
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/EEbGszS1Mt0MY2j00Zo8Udsf8.jpg'

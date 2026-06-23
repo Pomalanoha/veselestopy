@@ -1,6 +1,6 @@
 ---
 title: 'Rodinná dovolená, sprinty a běh na sněhu'
-description: 'Tento týden jsem si zase potvrdil, že když člověk opravdu chce, jde (téměř) všechno. Splnil jsem totiž plán na 100 %, přestože jsme od čtvrtka s rodinou vyrazili na kratší dovoleno'
+description: 'Tento týden jsem si zase potvrdil, že když člověk opravdu chce, jde (téměř) všechno. Splnil jsem totiž plán na 100 %, přestože jsme od čtvrtka s rodinou vyrazili na kratší dovolenou. Nebylo jednoduché skloubit výlety, rodinný program a tréninky, ale nakonec to vyšlo – a o to větší radost z toho…'
 date: 2025-01-08
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/Bql0cBxzbBYhhxFEO59qgU1E.jpg'

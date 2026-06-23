@@ -1,6 +1,6 @@
 ---
 title: 'Půl roku klidu. A teď zpátky do tréninku 🏃‍♂️'
-description: 'Loňská sezóna byla z mého pohledu opravdu povedená. Jasně, hranice 3 hodin na Budapešťském maratonu nepadla, což byl hlavní cíl, ke kterému jsem dlouhodobě směřoval. Ale i když se '
+description: 'Loňská sezóna byla z mého pohledu opravdu povedená. Jasně, hranice 3 hodin na Budapešťském maratonu nepadla, což byl hlavní cíl, ke kterému jsem dlouhodobě směřoval. Ale i když se to nepovedlo, nic to nemění na tom, že jsem měl po sezoně skvělý pocit. Běžecky jsem se posunul, tělo fungovalo, hlava…'
 date: 2026-05-04
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/hxqJjqXpA2NgqiQjaFQbWSDkXI.png'

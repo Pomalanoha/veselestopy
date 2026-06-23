@@ -1,6 +1,6 @@
 ---
 title: 'Fartlek, střevní viróza a „znovuzrození“ v nových botách'
-description: 'Tenhle týden byl skoro na výbornou – sice jsem musel trochu přehazovat tréninky kvůli střevní viróze, ale pojďme hezky od začátku.'
+description: 'Tenhle týden byl skoro na výbornou – sice jsem musel trochu přehazovat tréninky kvůli střevní viróze, ale pojďme hezky od začátku. Hned zkraje týdne na mě David vytáhl nový typ tréninku: Fartlek 6× (3''/2''/1'') (meziklus 1''), na který navázalo 6× 30" sprint / 30" volně. Abych byl přesný, vypadalo to…'
 date: 2025-04-07
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/VAuzjbln7PGpCKOhQpkbb6bnxQ.jpg'

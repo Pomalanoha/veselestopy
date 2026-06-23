@@ -1,6 +1,6 @@
 ---
 title: 'Fartlek, intervaly a ladění formy před závodem 🏃‍♂️🔥'
-description: 'Tento týden už se nesl ve znamení ladění formy – zátěž šla dolů, aby tělo mělo dostatek energie a čerstvosti na rychlý závod „Okolo Muňáku“. Nešlo o to nahánět kilometry, ale o kva'
+description: 'Tento týden už se nesl ve znamení ladění formy – zátěž šla dolů, aby tělo mělo dostatek energie a čerstvosti na rychlý závod „Okolo Muňáku“. Nešlo o to nahánět kilometry, ale o kvalitní přípravu a správný mix rychlosti, regenerace a dlouhého běhu. I když byl týden kratší, o to víc mě bavil – a…'
 date: 2025-09-08
 categories: ['tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/paBiOYsGyszLfSSAWhrTLhWUWU.jpg'

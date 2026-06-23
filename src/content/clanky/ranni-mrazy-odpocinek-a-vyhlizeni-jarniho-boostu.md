@@ -1,6 +1,6 @@
 ---
 title: 'Ranní mrazy, odpočinek a vyhlížení jarního boostu'
-description: 'Tenhle týden jsem se rozhodl postavit zimě čelem a všechny běhy jsem odběhal venku. Některé tréninky jsem dokonce absolvoval hned zrána, kdy teploměr ukazoval skoro 0 °C – ne že by'
+description: 'Tenhle týden jsem se rozhodl postavit zimě čelem a všechny běhy jsem odběhal venku. Některé tréninky jsem dokonce absolvoval hned zrána, kdy teploměr ukazoval skoro 0 °C – ne že by to bylo nejpříjemnější probuzení, ale jakmile se člověk rozpohybuje, mrazivý vzduch krásně nakopne do nového dne. Po…'
 date: 2024-09-17
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/QGzjwIOw6HVx7zNB0heHoTtdrI.jpg'

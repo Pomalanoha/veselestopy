@@ -1,6 +1,6 @@
 ---
 title: 'Ladění formy a tropický závodní boj v Budějovicích'
-description: 'A tenhle byl, řeknu vám, opravdu výživný! Celý se točil kolem sobotního velkého dne – 1/2Maratonu v Českých Budějovicích. Ladění formy, poslední tréninky a hlavně závod samotný, kt'
+description: 'A tenhle byl, řeknu vám, opravdu výživný! Celý se točil kolem sobotního velkého dne – 1/2Maratonu v Českých Budějovicích. Ladění formy, poslední tréninky a hlavně závod samotný, který se ukázal být tak trochu tropickým dobrodružstvím. Ale popořadě... Týden začal trochu netradičně – hned v pondělí…'
 date: 2025-06-02
 categories: ['zavody', 'tydenni-report', 'zlomit-3-hodiny']
 cover: '/images/clanky/0GGu0Yg62Uq1WYOOYKsyCWr4.jpg'

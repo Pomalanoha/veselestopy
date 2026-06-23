@@ -1,6 +1,6 @@
 ---
 title: 'Týden 4/52'
-description: 'Máme tady čtvrtý týden přípravy a už to začíná být pomalu zajímavé (a hlavně delší). Naštěstí se mi i tentokrát podařilo splnit všechno, co trenér předepsal ✅. I když musím přiznat'
+description: 'Máme tady čtvrtý týden přípravy a už to začíná být pomalu zajímavé (a hlavně delší). Naštěstí se mi i tentokrát podařilo splnit všechno, co trenér předepsal ✅. I když musím přiznat, že nedělní long byl hodně „na hraně“. Celý víkend jsem byl s dcerou na lyžích 🎿, domů jsme dorazili pozdě, únava…'
 date: 2024-11-27
 categories: ['zlomit-3-hodiny']
 cover: '/images/clanky/cV0n0fxEsePdHNhYI7RULWHM.jpg'
