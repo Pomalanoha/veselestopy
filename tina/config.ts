@@ -75,7 +75,16 @@ export default defineConfig({
             type: "string",
             name: "description",
             label: "Popisek (do výpisu a SEO)",
-            ui: { component: "textarea" },
+            description:
+              "Zobrazí se celý ve výpisu článků a v SEO. Doporučeno ~300 znaků, maximum 350.",
+            ui: {
+              component: "textarea",
+              validate: (value?: string) => {
+                if (value && value.length > 350) {
+                  return `Popisek může mít maximálně 350 znaků (aktuálně ${value.length}).`;
+                }
+              },
+            },
           },
           {
             type: "datetime",
