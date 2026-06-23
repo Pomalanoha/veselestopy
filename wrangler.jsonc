@@ -1,0 +1,9 @@
+{
+  // Konfigurace nasazení statického webu na Cloudflare (Workers + Static Assets).
+  // `npm run build` vytvoří složku `dist`, kterou wrangler nasadí jako statický web.
+  "name": "veselestopy",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
