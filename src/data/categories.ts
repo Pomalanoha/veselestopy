@@ -13,28 +13,28 @@ export const categories: Category[] = [
     title: "Závody",
     label: "Závody",
     description: "Reporty a příběhy ze závodů.",
-    icon: "https://framerusercontent.com/images/aj1aEikeulV97JQYPi7PagtAP8.jpeg",
+    icon: "/images/aj1aEikeulV97JQYPi7PagtAP8.jpeg",
   },
   {
     slug: "tydenni-report",
     title: "Týdenní report tréninkového týdne",
     label: "Týdenní report",
     description: "Co se dělo v tréninku týden po týdnu.",
-    icon: "https://framerusercontent.com/images/v79of0m6ZhOJ5BijMJEUnZQl0sk.jpeg",
+    icon: "/images/v79of0m6ZhOJ5BijMJEUnZQl0sk.jpeg",
   },
   {
     slug: "zlomit-3-hodiny",
     title: "Maraton pod 3 hodiny",
     label: "Zlomit3Hodiny",
     description: "Cesta za maratonem pod tři hodiny.",
-    icon: "https://framerusercontent.com/images/Bdgo8gAXLLpWGizWW4bPtG1LDfo.jpeg",
+    icon: "/images/Bdgo8gAXLLpWGizWW4bPtG1LDfo.jpeg",
   },
   {
     slug: "recenze",
     title: "Recenze",
     label: "Recenze",
     description: "Recenze běžeckého vybavení a doplňků.",
-    icon: "https://framerusercontent.com/images/iARlCvlAVCqXDJKNLzCTx3xLJY.jpeg",
+    icon: "/images/iARlCvlAVCqXDJKNLzCTx3xLJY.jpeg",
   },
 ];
 

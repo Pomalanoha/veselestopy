@@ -6,9 +6,7 @@ export const site = {
     "Sdílím svoji cestu k maratonu pod 3 hodiny. Najdete tu běžecké tipy, recenze vybavení a inspiraci pro radost z pohybu.",
   quote:
     "Běh není jen o rychlosti nebo vzdálenosti; je to cesta k vnitřní svobodě a poznání sebe sama.",
-  // Pro ukázku odkazuje na původní obrázek; migrace ho stáhne lokálně do /public/images
-  portrait:
-    "https://framerusercontent.com/images/OaSKJuvYwZZjLvF5ngM3drefqk.png?scale-down-to=512",
+  portrait: "/images/clanky/OaSKJuvYwZZjLvF5ngM3drefqk.png",
 };
 
 export const nav = [
@@ -29,7 +27,7 @@ export const partners = [
   {
     name: "Mizuno",
     href: "https://emea.mizuno.com/eu/cs-cz/home/",
-    logo: "https://framerusercontent.com/images/CX5LhJ3VOebnCb8VpQMn924kIo.png",
+    logo: "/images/partners/mizuno.png",
   },
   {
     name: "Neversecond",
@@ -40,7 +38,7 @@ export const partners = [
   {
     name: "FyzioFit",
     href: "https://fyziofit.eu/",
-    logo: "https://framerusercontent.com/images/efzZ5STs38UAW4MQqWtiax1Hc.png",
+    logo: "/images/partners/fyziofit.png",
   },
   {
     name: "Vámoš 66",
