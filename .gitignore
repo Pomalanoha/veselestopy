@@ -14,3 +14,9 @@ npm-debug.log*
 # TinaCMS (generované soubory a admin výstup)
 tina/__generated__/
 public/admin/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
