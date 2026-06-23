@@ -8,11 +8,14 @@
     "cms": "tinacms dev -c \"astro dev\"",
     "build": "astro build",
     "build:cms": "tinacms build && astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "astro": "astro",
-    "migrate": "node scripts/migrate-from-framer.mjs"
+    "migrate": "node scripts/migrate-from-framer.mjs",
+    "generate-types": "wrangler types",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^14.0.0",
     "@astrojs/rss": "^4.0.11",
     "@fontsource-variable/inter": "^5.1.1",
     "@fontsource-variable/nunito": "^5.1.1",
@@ -27,6 +30,7 @@
     "tailwindcss": "^4.0.0",
     "tinacms": "^2.4.0",
     "turndown": "^7.2.0",
-    "turndown-plugin-gfm": "^1.0.2"
+    "turndown-plugin-gfm": "^1.0.2",
+    "wrangler": "^4.103.0"
   }
 }
