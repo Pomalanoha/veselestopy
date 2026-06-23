@@ -1,54 +1,266 @@
 ---
-import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { formatDate } from "../utils/format";
-import CategoryChip from "../components/CategoryChip.astro";
+import { parseICS, type CalEvent } from "../utils/ics";
 
-const all = (await getCollection("clanky", ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
+// iCal adresa Google Kalendáře – nastav přes proměnnou GCAL_ICS_URL
+// (lokálně v souboru .env, na Cloudflare v Build variables).
+const url = import.meta.env.GCAL_ICS_URL || process.env.GCAL_ICS_URL;
 
-// seskupení podle roku
-const byYear = new Map<number, typeof all>();
-for (const a of all) {
-  const y = a.data.date.getFullYear();
-  if (!byYear.has(y)) byYear.set(y, []);
-  byYear.get(y)!.push(a);
+let events: CalEvent[] = [];
+let loadError: string | null = null;
+if (url) {
+  try {
+    const res = await fetch(url);
+    if (res.ok) events = parseICS(await res.text());
+    else loadError = `Kalendář se nepodařilo načíst (HTTP ${res.status}).`;
+  } catch (e) {
+    loadError = "Kalendář se nepodařilo načíst.";
+  }
+} else {
+  loadError = "Kalendář zatím není propojený (chybí GCAL_ICS_URL).";
 }
-const years = [...byYear.keys()].sort((a, b) => b - a);
 ---
 
 <BaseLayout title="Kalendář">
-  <section class="mx-auto max-w-3xl px-5 pt-14">
-    <h1 class="font-heading text-3xl font-extrabold text-ink sm:text-4xl">
-      Kalendář článků
+  <section class="mx-auto max-w-5xl px-5 pt-10 pb-4">
+    <h1 class="text-center font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+      Tréninkový kalendář
     </h1>
-    <p class="mt-3 text-muted">Všechny články chronologicky.</p>
+    <p class="mt-2 text-center text-muted">Můj běžecký plán a odběhané tréninky.</p>
 
     {
-      years.map((year) => (
-        <div class="mt-10">
-          <h2 class="font-heading text-xl font-extrabold text-muted">{year}</h2>
-          <ul class="mt-4 divide-y divide-line border-t border-line">
-            {byYear.get(year)!.map((a) => (
-              <li class="flex flex-wrap items-center justify-between gap-3 py-4">
-                <a
-                  href={`/clanky/${a.id}`}
-                  class="font-heading font-bold text-ink hover:underline"
-                >
-                  {a.data.title}
-                </a>
-                <div class="flex items-center gap-3 text-sm text-muted">
-                  {a.data.categories[0] && (
-                    <CategoryChip category={a.data.categories[0]} />
-                  )}
-                  <span>{formatDate(a.data.date)}</span>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))
+      loadError && events.length === 0 && (
+        <p class="mt-8 rounded-2xl border border-line bg-surface p-4 text-center text-sm text-muted">
+          {loadError}
+        </p>
+      )
     }
+
+    <div id="cal" class="mt-8" data-has-events={events.length > 0 ? "1" : "0"}></div>
   </section>
 </BaseLayout>
+
+<style is:global>
+  .cal-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .cal-title {
+    min-width: 11rem;
+    text-align: center;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--color-ink);
+    text-transform: capitalize;
+  }
+  .cal-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 9999px;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    transition: background 0.15s;
+  }
+  .cal-btn:hover {
+    background: var(--color-line);
+  }
+  .cal-today {
+    margin-left: 0.5rem;
+    border-radius: 9999px;
+    border: 1px solid var(--color-line);
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--color-ink);
+  }
+  .cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border: 1px solid var(--color-line);
+    border-radius: 0.9rem;
+    overflow: hidden;
+  }
+  .cal-weekday {
+    padding: 0.6rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color-line);
+    background: var(--color-surface);
+  }
+  .cal-cell {
+    min-height: 6.5rem;
+    border-right: 1px solid var(--color-line);
+    border-bottom: 1px solid var(--color-line);
+    padding: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .cal-cell:nth-child(7n) {
+    border-right: 0;
+  }
+  .cal-daynum {
+    align-self: flex-end;
+    font-size: 0.8rem;
+    color: var(--color-muted);
+    padding: 0 0.15rem;
+  }
+  .cal-cell--dim {
+    background: #fafafa;
+  }
+  .cal-cell--dim .cal-daynum {
+    opacity: 0.4;
+  }
+  .cal-cell--today .cal-daynum {
+    background: var(--color-ink);
+    color: #fff;
+    border-radius: 9999px;
+    min-width: 1.4rem;
+    text-align: center;
+  }
+  .cal-event {
+    font-size: 0.72rem;
+    line-height: 1.15;
+    background: #2563eb;
+    color: #fff;
+    border-radius: 0.4rem;
+    padding: 0.18rem 0.35rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cal-event--off {
+    background: var(--color-line);
+    color: var(--color-ink);
+  }
+  .cal-event b {
+    font-weight: 700;
+  }
+  @media (max-width: 640px) {
+    .cal-cell {
+      min-height: 4.5rem;
+      padding: 0.2rem;
+    }
+    .cal-event {
+      font-size: 0.6rem;
+      padding: 0.12rem 0.25rem;
+    }
+    .cal-weekday {
+      font-size: 0.6rem;
+      padding: 0.4rem 0.2rem;
+    }
+  }
+</style>
+
+<script define:vars={{ events }}>
+  const MONTHS = [
+    "leden", "únor", "březen", "duben", "květen", "červen",
+    "červenec", "srpen", "září", "říjen", "listopad", "prosinec",
+  ];
+  const WEEKDAYS = ["po", "út", "st", "čt", "pá", "so", "ne"];
+
+  // seskupit události podle data
+  const byDate = {};
+  for (const e of events) {
+    (byDate[e.date] ||= []).push(e);
+  }
+  for (const d in byDate) {
+    byDate[d].sort((a, b) => (a.time || "").localeCompare(b.time || ""));
+  }
+
+  const root = document.getElementById("cal");
+  const today = new Date();
+  let viewY = today.getFullYear();
+  let viewM = today.getMonth(); // 0–11
+
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (y, m, d) => `${y}-${pad(m + 1)}-${pad(d)}`;
+
+  function isOff(title) {
+    return /day off|volno|odpočinek|rest/i.test(title);
+  }
+
+  function render() {
+    if (!root) return;
+    root.innerHTML = "";
+
+    // hlavička s navigací
+    const head = document.createElement("div");
+    head.className = "cal-head";
+    const prev = document.createElement("button");
+    prev.className = "cal-btn";
+    prev.setAttribute("aria-label", "Předchozí měsíc");
+    prev.innerHTML = "‹";
+    prev.onclick = () => { viewM--; if (viewM < 0) { viewM = 11; viewY--; } render(); };
+    const next = document.createElement("button");
+    next.className = "cal-btn";
+    next.setAttribute("aria-label", "Další měsíc");
+    next.innerHTML = "›";
+    next.onclick = () => { viewM++; if (viewM > 11) { viewM = 0; viewY++; } render(); };
+    const title = document.createElement("div");
+    title.className = "cal-title";
+    title.textContent = `${MONTHS[viewM]} ${viewY}`;
+    const todayBtn = document.createElement("button");
+    todayBtn.className = "cal-today";
+    todayBtn.textContent = "Dnes";
+    todayBtn.onclick = () => { viewY = today.getFullYear(); viewM = today.getMonth(); render(); };
+    head.append(prev, title, next, todayBtn);
+    root.append(head);
+
+    // mřížka
+    const grid = document.createElement("div");
+    grid.className = "cal-grid";
+    for (const w of WEEKDAYS) {
+      const wd = document.createElement("div");
+      wd.className = "cal-weekday";
+      wd.textContent = w;
+      grid.append(wd);
+    }
+
+    const first = new Date(viewY, viewM, 1);
+    const offset = (first.getDay() + 6) % 7; // Po = 0
+    const start = new Date(viewY, viewM, 1 - offset);
+    const todayIso = iso(today.getFullYear(), today.getMonth(), today.getDate());
+
+    for (let i = 0; i < 42; i++) {
+      const d = new Date(start);
+      d.setDate(start.getDate() + i);
+      const cell = document.createElement("div");
+      cell.className = "cal-cell";
+      const inMonth = d.getMonth() === viewM;
+      if (!inMonth) cell.classList.add("cal-cell--dim");
+      const dIso = iso(d.getFullYear(), d.getMonth(), d.getDate());
+      if (dIso === todayIso) cell.classList.add("cal-cell--today");
+
+      const num = document.createElement("div");
+      num.className = "cal-daynum";
+      num.textContent = String(d.getDate());
+      cell.append(num);
+
+      for (const ev of byDate[dIso] || []) {
+        const item = document.createElement("div");
+        item.className = "cal-event" + (isOff(ev.title) ? " cal-event--off" : "");
+        item.title = (ev.time ? ev.time + " " : "") + ev.title;
+        item.innerHTML = ev.time ? `<b>${ev.time}</b> ${escapeHtml(ev.title)}` : escapeHtml(ev.title);
+        cell.append(item);
+      }
+      grid.append(cell);
+    }
+    root.append(grid);
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
+  render();
+</script>
