@@ -1,0 +1,4 @@
+# veselestopy.cz
+User-agent: *
+Allow: /
+Disallow: /admin
