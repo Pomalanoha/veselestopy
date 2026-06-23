@@ -1,0 +1,19 @@
+---
+import { site } from "../data/site";
+import { formatDate } from "../utils/format";
+interface Props {
+  date: Date;
+}
+const { date } = Astro.props;
+---
+
+<div class="flex items-center gap-2 text-sm text-muted">
+  <img
+    src={site.portrait}
+    alt={site.author}
+    class="h-6 w-6 rounded-full bg-surface object-cover"
+  />
+  <span class="font-semibold text-ink">{site.author}</span>
+  <span aria-hidden="true" class="text-line">/</span>
+  <span>{formatDate(date)}</span>
+</div>

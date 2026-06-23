@@ -1,0 +1,98 @@
+---
+import { partners, stravaAthleteId } from "../data/site";
+import { categories } from "../data/categories";
+---
+
+<aside class="space-y-10">
+  <!-- Partneři -->
+  <section class="rounded-3xl border border-line p-6">
+    <h2 class="mb-4 text-xs font-bold tracking-widest text-muted uppercase">
+      Partneři
+    </h2>
+    <ul class="flex flex-col items-center gap-10">
+      {
+        partners.map((p) => (
+          <li class="w-full text-center">
+            <a
+              href={p.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-block transition hover:opacity-70"
+              aria-label={p.name}
+            >
+              {p.logo ? (
+                <>
+                  <img
+                    src={p.logo}
+                    alt={`${p.name} logo`}
+                    loading="lazy"
+                    class="mx-auto h-auto w-48 max-w-full object-contain"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block'"
+                  />
+                  <span class="hidden font-heading text-xl font-extrabold text-ink">
+                    {p.name}
+                  </span>
+                </>
+              ) : (
+                <span class="font-heading text-xl font-extrabold text-ink">
+                  {p.name}
+                </span>
+              )}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <!-- Poslední aktivity (Strava) -->
+  <section class="rounded-3xl border border-line p-6">
+    <h2 class="mb-4 text-xs font-bold tracking-widest text-muted uppercase">
+      Poslední aktivity
+    </h2>
+    <a
+      href={`https://www.strava.com/athletes/${stravaAthleteId}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-3 rounded-2xl bg-surface px-4 py-3 text-sm font-semibold text-ink transition hover:bg-line"
+    >
+      <span
+        class="flex h-9 w-9 items-center justify-center rounded-full bg-[#fc4c02] text-xs font-bold text-white"
+        >St</span
+      >
+      Sledovat na Stravě
+    </a>
+    <p class="mt-3 text-xs text-muted">
+      Živý přehled tréninků se sem doplní napojením na Stravu.
+    </p>
+  </section>
+
+  <!-- Populární kategorie -->
+  <section class="rounded-3xl border border-line p-6">
+    <h2 class="mb-4 text-xs font-bold tracking-widest text-muted uppercase">
+      Populární články
+    </h2>
+    <ul class="space-y-4">
+      {
+        categories.map((c) => (
+          <li>
+            <a
+              href={`/kategorie/${c.slug}`}
+              class="flex items-center gap-3 transition hover:opacity-70"
+            >
+              <img
+                src={c.icon}
+                alt={c.label}
+                loading="lazy"
+                class="h-10 w-10 shrink-0 rounded-full object-cover"
+              />
+              <span class="font-heading font-extrabold text-ink">
+                {c.label}
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</aside>

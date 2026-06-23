@@ -1,0 +1,67 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Byline from "./Byline.astro";
+import CategoryChip from "./CategoryChip.astro";
+
+interface Props {
+  article: CollectionEntry<"clanky">;
+  variant?: "featured" | "list";
+}
+const { article, variant = "list" } = Astro.props;
+const { data } = article;
+const href = `/clanky/${article.id}`;
+const featured = variant === "featured";
+---
+
+<article class={`flex flex-col gap-5 sm:flex-row ${featured ? "sm:gap-8" : ""}`}>
+  {
+    data.cover && (
+      <a
+        href={href}
+        class={`block shrink-0 overflow-hidden rounded-3xl border border-line ${
+          featured ? "sm:w-1/2" : "sm:w-44"
+        }`}
+      >
+        <img
+          src={data.cover}
+          alt={data.title}
+          loading="lazy"
+          class={`w-full object-cover transition duration-500 hover:scale-[1.03] ${
+            featured ? "aspect-[4/3]" : "aspect-square"
+          }`}
+        />
+      </a>
+    )
+  }
+
+  <div class={`flex flex-1 flex-col ${featured ? "justify-center" : ""}`}>
+    <h3
+      class={`font-heading font-extrabold text-ink ${featured ? "text-2xl sm:text-3xl" : "text-lg sm:text-xl"}`}
+    >
+      <a href={href} class="hover:underline">{data.title}</a>
+    </h3>
+
+    <div class="mt-3"><Byline date={data.date} /></div>
+
+    {
+      data.description && (
+        <p
+          class={`mt-3 text-muted ${featured ? "line-clamp-4" : "line-clamp-2 text-sm"}`}
+        >
+          {data.description}
+        </p>
+      )
+    }
+
+    <div class="mt-4 flex flex-wrap items-center gap-3">
+      {data.categories[0] && <CategoryChip category={data.categories[0]} />}
+      {
+        data.readingMinutes && (
+          <span class="text-xs font-bold tracking-wider text-muted uppercase">
+            {data.readingMinutes} min čtení
+          </span>
+        )
+      }
+    </div>
+  </div>
+</article>

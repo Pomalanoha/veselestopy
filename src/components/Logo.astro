@@ -1,0 +1,38 @@
+---
+// Ručně-kreslené logo (aproximace originálu): hory + stan + sluníčko a obláček + #veselestopy
+interface Props {
+  class?: string;
+}
+const { class: cls = "" } = Astro.props;
+---
+
+<span class={`inline-flex items-center gap-2 ${cls}`}>
+  <svg
+    width="56"
+    height="40"
+    viewBox="0 0 56 40"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="text-ink"
+    aria-hidden="true"
+  >
+    <!-- sluníčko -->
+    <circle cx="9" cy="7" r="2.4"></circle>
+    <path d="M9 1.5v1.5M9 11v1.5M3.5 7H5M13 7h1.5M5.2 3.2l1 1M11.8 3.2l-1 1"></path>
+    <!-- obláček -->
+    <path d="M20 8.5c-1.6 0-2.6-1.2-2.6-2.4 0-1.4 1.2-2.4 2.6-2.3.3-1.3 1.5-2 2.7-1.8 1.2.2 2 1.2 2 2.4 1.2 0 2 .9 2 1.8 0 1.2-1 2.3-2.4 2.3z"></path>
+    <!-- hory -->
+    <path d="M2 38l11-19 7 12 5-8 12 15z"></path>
+    <path d="M30 30l9-16 15 24H21z"></path>
+    <!-- sníh na vrcholu -->
+    <path d="M35 22l4 4 4-4"></path>
+    <!-- stan -->
+    <path d="M3 38l5-8 5 8M8 30v8"></path>
+  </svg>
+  <span class="font-heading text-lg font-extrabold tracking-tight text-ink"
+    >#veselestopy</span
+  >
+</span>

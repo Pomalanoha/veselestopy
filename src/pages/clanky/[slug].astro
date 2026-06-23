@@ -1,0 +1,120 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CategoryChip from "../../components/CategoryChip.astro";
+import Sidebar from "../../components/Sidebar.astro";
+import { formatDate } from "../../utils/format";
+import { site } from "../../data/site";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("clanky", ({ data }) => !data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.description}
+  image={data.cover ?? site.portrait}
+>
+  <div class={`mx-auto px-5 pt-12 ${data.sidebar ? "max-w-6xl" : "max-w-3xl"}`}>
+   <div class={data.sidebar ? "grid gap-12 lg:grid-cols-3" : ""}>
+    <article class={data.sidebar ? "lg:col-span-2" : ""}>
+    <header class="mb-8">
+      {
+        data.badge && (
+          <span class="text-xs font-bold tracking-wide text-muted uppercase">
+            {data.badge}
+          </span>
+        )
+      }
+      <h1 class="mt-2 font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+        {data.title}
+      </h1>
+      <div class="mt-4 flex flex-wrap items-center gap-3 text-sm text-muted">
+        <span class="font-semibold text-ink">{site.author}</span>
+        <span>{formatDate(data.date)}</span>
+        {data.readingMinutes && <span>· {data.readingMinutes} min čtení</span>}
+      </div>
+      {
+        data.categories.length > 0 && (
+          <div class="mt-4 flex flex-wrap gap-2">
+            {data.categories.map((c) => (
+              <CategoryChip category={c} />
+            ))}
+          </div>
+        )
+      }
+    </header>
+
+    {
+      data.cover && (
+        <img
+          src={data.cover}
+          alt={data.title}
+          class="mb-10 w-full rounded-3xl border border-line object-cover"
+        />
+      )
+    }
+
+    <div
+      class="prose prose-article prose-zinc max-w-none prose-headings:font-heading prose-img:rounded-2xl prose-img:border prose-img:border-line"
+    >
+      <Content />
+    </div>
+
+      <div class="pt-12">
+        <a
+          href="/"
+          class="inline-flex items-center rounded-full border border-line px-4 py-2 text-sm font-semibold text-ink transition hover:bg-surface"
+        >
+          ← Zpět na úvod
+        </a>
+      </div>
+    </article>
+
+    {data.sidebar && <Sidebar />}
+   </div>
+  </div>
+
+  <!-- Lightbox pro obrázky v článku -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+</BaseLayout>
+
+<script>
+  const lb = document.getElementById("lightbox");
+  const lbImg = document.getElementById("lightbox-img") as HTMLImageElement | null;
+
+  function open(src: string, alt: string) {
+    if (!lb || !lbImg) return;
+    lbImg.src = src;
+    lbImg.alt = alt;
+    lb.classList.add("is-open");
+    lb.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+  function close() {
+    if (!lb || !lbImg) return;
+    lb.classList.remove("is-open");
+    lb.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    lbImg.src = "";
+  }
+
+  document.querySelectorAll<HTMLImageElement>(".prose-article img").forEach((img) => {
+    img.addEventListener("click", () => open(img.currentSrc || img.src, img.alt));
+  });
+  lb?.addEventListener("click", close);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
+</script>

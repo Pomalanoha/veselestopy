@@ -1,0 +1,25 @@
+---
+import { partners } from "../data/site";
+---
+
+<section class="mt-20 border-t border-line py-12">
+  <div class="mx-auto max-w-3xl px-5">
+    <h2 class="mb-6 text-center text-xs font-bold tracking-widest text-muted uppercase">
+      Partneři
+    </h2>
+    <div class="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+      {
+        partners.map((p) => (
+          <a
+            href={p.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-heading text-lg font-extrabold text-muted transition hover:text-ink"
+          >
+            {p.name}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

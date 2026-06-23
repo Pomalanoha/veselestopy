@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SocialLinks from "../components/SocialLinks.astro";
+import { site } from "../data/site";
+
+const photos = {
+  ricochet:
+    "https://framerusercontent.com/images/AfsEFbYNQX0uUk631BwPrnQoJM.jpg?scale-down-to=1024&lossless=1",
+  cyklista:
+    "https://framerusercontent.com/images/6A4MtsO3UIsKUxnofsMvkt0I4.jpg?lossless=1",
+  lavaredo:
+    "https://framerusercontent.com/images/tNFBON400M89KfmygoORkEykuFU.jpg?scale-down-to=1024&lossless=1",
+  kpz: "https://framerusercontent.com/images/Wml6UGLdyWDd0PsWkOix18FVrM.jpg?scale-down-to=1024&lossless=1",
+};
+---
+
+<BaseLayout title="O mně">
+  <section class="mx-auto max-w-3xl px-5 pt-14 text-center">
+    <img
+      src={site.portrait}
+      alt={site.author}
+      class="mx-auto h-24 w-24 object-contain"
+    />
+    <h1 class="mt-5 font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+      Něco málo o mně
+    </h1>
+    <div class="mt-5 flex justify-center"><SocialLinks /></div>
+  </section>
+
+  <article class="mx-auto mt-12 max-w-3xl px-5">
+    <div class="prose prose-article prose-zinc max-w-none prose-img:rounded-3xl prose-img:border prose-img:border-line">
+      <p>
+        Sport byl a vždy bude nedílnou součástí mého života. Už od útlého
+        dětství jsem se aktivně věnoval různým sportům, počínaje národní házenou
+        a atletikou v SK Jeseniova. Nicméně, mým hlavním sportem se stal squash,
+        který mě naprosto pohltil.
+      </p>
+
+      <img src={photos.ricochet} alt="Jan Veselý, MS Ricochet" loading="lazy" />
+
+      <p>
+        Sportovní duch se v naší rodině dědí z generace na generaci. Zvláštní
+        místo v naší rodinné historii zaujímá můj dědeček, který v roce 1949
+        vyhrál Závod míru, což byl v té době obrovský sportovní úspěch.
+      </p>
+      <p>
+        Ačkoli jsem se nevydal přesně v dědečkových šlépějích, sportovní vášeň
+        mě provází celým životem. Po zkušenostech s různými sporty jsem se
+        naplno oddal squashi a ricochetu. Ve squashi jsem v juniorských
+        kategoriích dosáhl několika titulů Mistra České republiky a v ricochetu
+        jsem se stal dokonce Mistrem světa v roce 2012, což je pro mě doposud
+        jedinečný úspěch.
+      </p>
+
+      <img src={photos.cyklista} alt="Jan Veselý, cyklista" loading="lazy" />
+
+      <p>
+        Moje squashová kariéra mě dovedla až k získání trenérské licence II.
+        třídy a k 4. místu na Mistrovství České republiky ve squashi.
+      </p>
+      <p>
+        Po ukončení profesionální squashové kariéry jsem se s nadšením vrhl na
+        běh. Stále se snažím posouvat své limity a objevovat nové výzvy.
+      </p>
+
+      <img src={photos.lavaredo} alt="Jan Veselý, Lavaredo 50K" loading="lazy" />
+
+      <p>
+        Kromě běhu jsem se občas zúčastnil i závodů na horských kolech v rámci
+        seriálu Kolo pro život, kde se mi dokonce podařilo jeden závod na 32 km
+        vyhrát.
+      </p>
+
+      <img src={photos.kpz} alt="Jan Veselý, Kolo pro život" loading="lazy" />
+    </div>
+  </article>
+</BaseLayout>

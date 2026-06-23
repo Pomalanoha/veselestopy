@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { email } from "../data/site";
+---
+
+<BaseLayout title="Ochrana osobních údajů">
+  <section class="mx-auto max-w-3xl px-5 pt-14">
+    <h1 class="font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+      Zásady ochrany osobních údajů
+    </h1>
+    <p class="mt-2 text-sm text-muted">Datum účinnosti: 1. 1. 2025</p>
+
+    <div class="prose prose-article prose-zinc mt-8 max-w-none">
+      <p>
+        Vítejte na stránkách #veselestopy. Tyto zásady ochrany osobních údajů
+        vysvětlují, jak shromažďujeme, používáme a chráníme vaše osobní údaje,
+        když navštívíte naše webové stránky.
+      </p>
+
+      <h2>1. Informace, které shromažďujeme</h2>
+      <p>Můžeme shromažďovat následující typy informací:</p>
+      <ul>
+        <li>
+          <strong>Osobní informace:</strong> vaše jméno a e-mailová adresa, pokud
+          nás kontaktujete.
+        </li>
+        <li>
+          <strong>Údaje o používání:</strong> informace o tom, jak používáte naše
+          webové stránky, včetně typu zařízení, typu prohlížeče a IP adresy.
+        </li>
+        <li>
+          <strong>Cookies:</strong> malé soubory, které se ukládají do vašeho
+          zařízení a slouží ke zlepšení vašich zkušeností s našimi webovými
+          stránkami.
+        </li>
+      </ul>
+
+      <h2>2. Jak používáme vaše informace</h2>
+      <ul>
+        <li>K poskytování podpory a řešení vašich dotazů.</li>
+        <li>Ke zlepšení webových stránek a celkového uživatelského zážitku.</li>
+        <li>
+          K zasílání aktualizací (pouze pokud se k jejich odběru přihlásíte).
+        </li>
+      </ul>
+
+      <h2>3. Jak chráníme vaše informace</h2>
+      <ul>
+        <li>Šifrování citlivých informací během přenosu.</li>
+        <li>Pravidelné aktualizace systémů s cílem odstranit zranitelnosti.</li>
+        <li>
+          Omezený přístup k vašim osobním údajům pouze pro oprávněné osoby.
+        </li>
+      </ul>
+
+      <h2>4. Služby třetích stran</h2>
+      <p>
+        K vylepšení funkčnosti webu můžeme využívat služby třetích stran (např.
+        analytické nástroje). Tyto služby mohou mít přístup k určitým informacím
+        nezbytným pro plnění svých funkcí, ale nesmí je používat k jiným účelům.
+      </p>
+
+      <h2>5. Vaše práva</h2>
+      <ul>
+        <li><strong>Přístup:</strong> vyžádat si přístup k údajům, které o vás máme.</li>
+        <li><strong>Oprava:</strong> požádat o opravu nepřesných nebo neúplných údajů.</li>
+        <li>
+          <strong>Vymazání:</strong> požádat o vymazání svých osobních údajů v
+          souladu se zákonnými povinnostmi.
+        </li>
+        <li>
+          <strong>Opt-out:</strong> odhlásit se z odběru sdělení podle pokynů v
+          e-mailech.
+        </li>
+      </ul>
+
+      <h2>6. Cookies</h2>
+      <p>
+        Naše webové stránky používají soubory cookie, aby zlepšily váš zážitek z
+        prohlížení. Předvolby souborů cookie můžete ovládat v nastavení svého
+        prohlížeče.
+      </p>
+
+      <h2>7. Změny těchto zásad</h2>
+      <p>
+        Vyhrazujeme si právo tyto zásady kdykoli aktualizovat. Změny budou
+        zveřejněny na této stránce a „Datum účinnosti" bude odpovídajícím
+        způsobem aktualizováno.
+      </p>
+
+      <h2>8. Kontaktujte nás</h2>
+      <p>
+        Máte-li jakékoli dotazy nebo připomínky k těmto zásadám, kontaktujte nás
+        na adrese: <a href={`mailto:${email}`}>{email}</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

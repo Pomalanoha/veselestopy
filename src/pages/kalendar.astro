@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatDate } from "../utils/format";
+import CategoryChip from "../components/CategoryChip.astro";
+
+const all = (await getCollection("clanky", ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+// seskupení podle roku
+const byYear = new Map<number, typeof all>();
+for (const a of all) {
+  const y = a.data.date.getFullYear();
+  if (!byYear.has(y)) byYear.set(y, []);
+  byYear.get(y)!.push(a);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+---
+
+<BaseLayout title="Kalendář">
+  <section class="mx-auto max-w-3xl px-5 pt-14">
+    <h1 class="font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+      Kalendář článků
+    </h1>
+    <p class="mt-3 text-muted">Všechny články chronologicky.</p>
+
+    {
+      years.map((year) => (
+        <div class="mt-10">
+          <h2 class="font-heading text-xl font-extrabold text-muted">{year}</h2>
+          <ul class="mt-4 divide-y divide-line border-t border-line">
+            {byYear.get(year)!.map((a) => (
+              <li class="flex flex-wrap items-center justify-between gap-3 py-4">
+                <a
+                  href={`/clanky/${a.id}`}
+                  class="font-heading font-bold text-ink hover:underline"
+                >
+                  {a.data.title}
+                </a>
+                <div class="flex items-center gap-3 text-sm text-muted">
+                  {a.data.categories[0] && (
+                    <CategoryChip category={a.data.categories[0]} />
+                  )}
+                  <span>{formatDate(a.data.date)}</span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </section>
+</BaseLayout>

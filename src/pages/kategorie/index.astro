@@ -1,0 +1,40 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { categories } from "../../data/categories";
+
+const all = await getCollection("clanky", ({ data }) => !data.draft);
+const countFor = (slug: string) =>
+  all.filter((a) => a.data.categories.includes(slug)).length;
+---
+
+<BaseLayout title="Kategorie">
+  <section class="mx-auto max-w-5xl px-5 pt-14">
+    <h1 class="font-heading text-3xl font-extrabold text-ink sm:text-4xl">
+      Kategorie
+    </h1>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        categories.map((c) => (
+          <a
+            href={`/kategorie/${c.slug}`}
+            class="flex flex-col items-center rounded-3xl border border-line p-8 text-center transition hover:shadow-md"
+          >
+            <img
+              src={c.icon}
+              alt={c.label}
+              loading="lazy"
+              class="h-20 w-20 rounded-full object-cover"
+            />
+            <span class="mt-5 font-heading text-lg font-extrabold text-ink">
+              {c.label}
+            </span>
+            <span class="mt-1 text-sm text-muted">
+              {countFor(c.slug)} článků
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

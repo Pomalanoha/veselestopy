@@ -1,0 +1,16 @@
+# build výstup
+dist/
+# závislosti
+node_modules/
+# astro
+.astro/
+# logy
+npm-debug.log*
+# systém
+.DS_Store
+# lokální env
+.env
+.env.production
+# TinaCMS (generované soubory a admin výstup)
+tina/__generated__/
+public/admin/

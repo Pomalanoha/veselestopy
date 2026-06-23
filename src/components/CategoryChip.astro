@@ -1,0 +1,16 @@
+---
+import { getCategory } from "../data/categories";
+interface Props {
+  category: string;
+}
+const { category } = Astro.props;
+const cat = getCategory(category);
+const label = cat?.label ?? category;
+---
+
+<a
+  href={`/kategorie/${category}`}
+  class="inline-flex items-center rounded-full bg-surface px-3 py-1.5 text-xs font-bold tracking-wider text-ink uppercase transition hover:bg-line"
+>
+  {label}
+</a>
