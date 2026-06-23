@@ -75,10 +75,10 @@ export default defineConfig({
             type: "string",
             name: "description",
             label: "Popisek (do výpisu a SEO)",
-            description:
-              "Zobrazí se celý ve výpisu článků a v SEO. Doporučeno ~300 znaků, maximum 350.",
             ui: {
               component: "textarea",
+              // Doporučeno ~300 znaků, maximum 350. (Funkce se neserializuje do
+              // schématu, takže neovlivní tina-lock.json ani indexaci v TinaCloud.)
               validate: (value?: string) => {
                 if (value && value.length > 350) {
                   return `Popisek může mít maximálně 350 znaků (aktuálně ${value.length}).`;
