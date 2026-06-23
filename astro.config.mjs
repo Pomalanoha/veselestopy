@@ -5,10 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   site: "https://veselestopy.cz",
-  // pohodlí: /admin přesměruje na vygenerovaný editor TinaCMS
-  redirects: {
-    "/admin": "/admin/index.html",
-  },
   vite: {
     plugins: [tailwindcss()],
   },
