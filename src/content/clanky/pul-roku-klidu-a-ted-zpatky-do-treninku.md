@@ -1,11 +1,13 @@
 ---
-title: 'Půl roku klidu. A teď zpátky do tréninku 🏃‍♂️'
+title: "Půl roku klidu. A teď zpátky do tréninku \U0001F3C3‍♂️❤️"
 description: 'Loňská sezóna byla z mého pohledu opravdu povedená. Jasně, hranice 3 hodin na Budapešťském maratonu nepadla, což byl hlavní cíl, ke kterému jsem dlouhodobě směřoval. Ale i když se to nepovedlo, nic to nemění na tom, že jsem měl po sezoně skvělý pocit. Běžecky jsem se posunul, tělo fungovalo, hlava…'
-date: 2026-05-04
-categories: ['zlomit-3-hodiny']
-cover: '/images/clanky/hxqJjqXpA2NgqiQjaFQbWSDkXI.png'
+date: 2026-05-04T00:00:00.000Z
+categories:
+  - zlomit-3-hodiny
+cover: /images/clanky/hxqJjqXpA2NgqiQjaFQbWSDkXI.png
 readingMinutes: 10
 ---
+
 Loňská sezóna byla z mého pohledu opravdu povedená. Jasně, **hranice 3 hodin na Budapešťském maratonu nepadla**, což byl hlavní cíl, ke kterému jsem dlouhodobě směřoval. Ale i když se to nepovedlo, nic to nemění na tom, že jsem měl po sezoně skvělý pocit. Běžecky jsem se posunul, tělo fungovalo, hlava držela a já měl hlavně jednu velkou výhodu: **přesně jsem věděl, co musím zlepšit**.
 
 Věděl jsem, kde jsem ztrácel. Věděl jsem, co mi chybělo. A věděl jsem, že pokud všechno dobře poskládám, můžu být v nové sezoně silnější než kdy dřív.
@@ -162,5 +164,5 @@ A možná právě díky tomu se teď vracím trochu jiný. Pořád s chutí běh
 
 **Zpátky od nuly. Zpátky s respektem. Zpátky na cestu.**
 
-Maraton pod 3 hodiny si ještě počká.  
+Maraton pod 3 hodiny si ještě počká.\
 Ale já se vracím. 💪
