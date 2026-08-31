@@ -12,8 +12,6 @@ sidebar: false
 draft: false
 ---
 
-### Když se z běhu vytratí radost. Je to vyhoření? 🏃‍♂️
-
 Je trochu zvláštní psát následující řádky právě na běžecký blog. Blog, který vznikl hlavně proto, že mě běh baví. Protože rád trénuju, závodím, sleduju čísla, přemýšlím nad tím, co zlepšit, a hledám další cestu, jak se posunout.
 
 Jenže poslední týdny si pokládám trochu jinou otázku.
