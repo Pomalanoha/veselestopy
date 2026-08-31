@@ -8,7 +8,8 @@ categories:
 cover: /images/IMG_7876.jpg
 readingMinutes: 10
 featured: true
-draft: true
+sidebar: true
+draft: false
 ---
 
 \[# Když se z běhu vytratí radost. Je to vyhoření?
