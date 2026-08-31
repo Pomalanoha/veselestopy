@@ -5,7 +5,7 @@ description: |
 date: 2026-08-31T00:00:00.000Z
 categories:
   - zlomit-3-hodiny
-cover: /images/IMG_7876.jpg
+cover: /images/vyhoreni.jpg
 readingMinutes: 10
 featured: true
 sidebar: false
