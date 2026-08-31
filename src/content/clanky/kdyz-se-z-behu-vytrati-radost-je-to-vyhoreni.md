@@ -8,7 +8,7 @@ categories:
 cover: /images/IMG_7876.jpg
 readingMinutes: 10
 featured: true
-sidebar: true
+sidebar: false
 draft: false
 ---
 
