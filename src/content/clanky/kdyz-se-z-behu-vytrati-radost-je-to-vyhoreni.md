@@ -24,7 +24,7 @@ Ne že bych už nechtěl běhat vůbec. Ne že bych chtěl pověsit boty na hře
 
 A možná jsem to příliš dlouho nechtěl vidět.
 
-Minulý rok jsem se na tréninky těšil
+### Minulý rok jsem se na tréninky těšil
 
 Když se vrátím o rok zpátky, ten rozdíl je vlastně až překvapivý. Mohl jsem mít před sebou těžké intervaly, tempo, dlouhý běh nebo kopce a stejně jsem se na trénink těšil.
 
@@ -42,7 +42,7 @@ Poslední dobou jsem se čím dál častěji přistihl, že se před během spí
 
 A to je docela zásadní rozdíl.
 
-Možná to všechno začalo mnohem dřív
+### Možná to všechno začalo mnohem dřív
 
 Letošní rok byl samozřejmě úplně jiný už od začátku. Po zdravotních problémech a dlouhé pauze jsem několik měsíců prakticky netrénoval. Místo běhání jsem řešil vyšetření, srdce, výsledky a hlavně otázku, jestli budu vůbec moct normálně sportovat.
 
@@ -58,7 +58,7 @@ Jakmile se ukázalo, že tělo funguje, velmi rychle se začala vracet i moje dr
 
 A možná právě někde tady začal problém.
 
-Závod s vlastním minulým já
+### Závod s vlastním minulým já
 
 Po tak dlouhé pauze jsem samozřejmě věděl, že se nemůžu během několika týdnů vrátit na předchozí výkonnost. Teoreticky mi to bylo úplně jasné.
 
@@ -78,7 +78,7 @@ Půl roku nejde vymazat několika dobrými tréninky.
 
 A dnes si říkám, jestli se tělo nevrátilo do běhání rychleji než hlava.
 
-Těch šest kilometrů
+### Těch šest kilometrů
 
 Definitivně mi to začalo docházet přibližně před dvěma týdny.
 
@@ -108,7 +108,7 @@ Ten den jsem poprvé nechtěl hledat další vysvětlení. Prostě jsem si přip
 
 A možná právě těch šest kilometrů bylo důležitějších než spousta dokončených tréninků před nimi.
 
-Když se z koníčku začne stávat povinnost
+### Když se z koníčku začne stávat povinnost
 
 Když jsem nad tím začal zpětně přemýšlet, zjistil jsem, že ten problém vlastně nevznikl během jednoho tréninku. Byl tam už delší dobu a jen jsem ho ignoroval.
 
@@ -124,7 +124,7 @@ Běh začal být něco, co musím udělat, místo něčeho, co chci udělat.
 
 Když se koníček, který máte tolik rádi, začne měnit v další položku na seznamu povinností, asi není úplně dobré ten pocit dál ignorovat.
 
-Je to běžecké vyhoření?
+### Je to běžecké vyhoření?
 
 Nevím.
 
@@ -154,7 +154,7 @@ Popravdě teď odpověď nemám.
 
 A tentokrát ji ani nechci za každou cenu najít v nějakém grafu.
 
-Letošní sezonu končím
+### Letošní sezonu končím
 
 Nakonec jsem proto udělal rozhodnutí, které by mě ještě před pár měsíci asi ani nenapadlo.
 
@@ -180,7 +180,7 @@ Spíš jako úpravu plánu podle aktuální situace.
 
 Možná je lepší zastavit se teď než několik dalších měsíců tlačit na pilu a jednoho dne zjistit, že běžecké boty opravdu nechci ani vidět.
 
-Možná potřebuju přestat trénovat a zase začít běhat 🌲
+### Možná potřebuju přestat trénovat a zase začít běhat 🌲
 
 Běhat tedy rozhodně nepřestávám.
 
@@ -200,7 +200,7 @@ Možná to zní trochu paradoxně. Mít trenéra proto, abyste na chvíli méně
 
 Mně to ale dává smysl.
 
-Berlín 2027 🇩🇪
+### Berlín 2027 🇩🇪
 
 Jeden cíl na horizontu přece jen mám.
 
