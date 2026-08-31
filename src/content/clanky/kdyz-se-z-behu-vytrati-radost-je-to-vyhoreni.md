@@ -16,13 +16,13 @@ Je trochu zvláštní psát následující řádky právě na běžecký blog. B
 
 Jenže poslední týdny si pokládám trochu jinou otázku.
 
-Co když mě běh přestal bavit?
+**Co když mě běh přestal bavit?**
 
 Ne že bych už nechtěl běhat vůbec. Ne že bych chtěl pověsit boty na hřebík a najít si jiný sport. Jen se někam vytratila ta obyčejná radost, kterou jsem ještě před rokem považoval skoro za samozřejmost.
 
 A možná jsem to příliš dlouho nechtěl vidět.
 
-### Minulý rok jsem se na tréninky těšil
+### **Minulý rok jsem se na tréninky těšil**
 
 Když se vrátím o rok zpátky, ten rozdíl je vlastně až překvapivý. Mohl jsem mít před sebou těžké intervaly, tempo, dlouhý běh nebo kopce a stejně jsem se na trénink těšil.
 
@@ -30,17 +30,17 @@ Samozřejmě ne vždycky na každý kilometr. Člověk občas vyběhne unavený,
 
 Otevřel jsem tréninkový plán a byl zvědavý, jak to zvládnu. Těšil jsem se na ten pocit potom. Bavilo mě sledovat, jak se postupně zlepšuju a jak se tempa, která byla před pár měsíci těžká, stávají normální. Dokonce i před náročným tréninkem tam bylo takové zvláštní příjemné napětí.
 
-Hlavně jsem ale měl pocit, že to celé dělám proto, že chci.
+Hlavně jsem ale měl pocit, že to celé dělám proto, že **chci**.
 
 Letos je to jiné.
 
 Poslední dobou jsem se čím dál častěji přistihl, že se před během spíš přemlouvám. Už to nebylo „dneska to bude dobrý trénink“, ale spíš:
 
-„Tak pojď, prostě to nějak odběhni.“
+**„Tak pojď, prostě to nějak odběhni.“**
 
 A to je docela zásadní rozdíl.
 
-### Možná to všechno začalo mnohem dřív
+### **Možná to všechno začalo mnohem dřív**
 
 Letošní rok byl samozřejmě úplně jiný už od začátku. Po zdravotních problémech a dlouhé pauze jsem několik měsíců prakticky netrénoval. Místo běhání jsem řešil vyšetření, srdce, výsledky a hlavně otázku, jestli budu vůbec moct normálně sportovat.
 
@@ -56,7 +56,7 @@ Jakmile se ukázalo, že tělo funguje, velmi rychle se začala vracet i moje dr
 
 A možná právě někde tady začal problém.
 
-### Závod s vlastním minulým já
+### **Závod s vlastním minulým já**
 
 Po tak dlouhé pauze jsem samozřejmě věděl, že se nemůžu během několika týdnů vrátit na předchozí výkonnost. Teoreticky mi to bylo úplně jasné.
 
@@ -68,7 +68,7 @@ A někde vzadu v hlavě asi neustále běžel malý závod s mým minulým já.
 
 Každý povedený trénink znamenal, že se vracím. Každý horší trénink naopak připomínal, jak daleko ještě jsem.
 
-Možná jsem se tak místo radosti z toho, že vůbec můžu běhat, začal příliš brzo soustředit na to, jak rychle zase běhám.
+Možná jsem se tak místo radosti z toho, že vůbec můžu běhat, začal příliš brzo soustředit na to, **jak rychle zase běhám.**
 
 A možná jsem se snažil dohnat něco, co se vlastně dohnat nedalo.
 
@@ -76,7 +76,7 @@ Půl roku nejde vymazat několika dobrými tréninky.
 
 A dnes si říkám, jestli se tělo nevrátilo do běhání rychleji než hlava.
 
-### Těch šest kilometrů
+### **Těch šest kilometrů**
 
 Definitivně mi to začalo docházet přibližně před dvěma týdny.
 
@@ -90,7 +90,7 @@ Bylo to něco jiného.
 
 Po zhruba šesti kilometrech jsem se zastavil.
 
-Dost. Dneska to prostě neodběhnu.
+**Dost. Dneska to prostě neodběhnu.**
 
 Žádné dramatické vyčerpání, žádná bolest, žádné zranění. Prostě jsem už nechtěl pokračovat.
 
@@ -106,7 +106,7 @@ Ten den jsem poprvé nechtěl hledat další vysvětlení. Prostě jsem si přip
 
 A možná právě těch šest kilometrů bylo důležitějších než spousta dokončených tréninků před nimi.
 
-### Když se z koníčku začne stávat povinnost
+### **Když se z koníčku začne stávat povinnost**
 
 Když jsem nad tím začal zpětně přemýšlet, zjistil jsem, že ten problém vlastně nevznikl během jednoho tréninku. Byl tam už delší dobu a jen jsem ho ignoroval.
 
@@ -118,11 +118,11 @@ Plán se většinou plnil, kilometry přibývaly a forma se pomalu vracela. Zven
 
 Jenže uvnitř se něco postupně měnilo.
 
-Běh začal být něco, co musím udělat, místo něčeho, co chci udělat.
+**Běh začal být něco, co musím udělat, místo něčeho, co chci udělat.**
 
 Když se koníček, který máte tolik rádi, začne měnit v další položku na seznamu povinností, asi není úplně dobré ten pocit dál ignorovat.
 
-### Je to běžecké vyhoření?
+### **Je to běžecké vyhoření?**
 
 Nevím.
 
@@ -132,7 +132,7 @@ Tak to necítím.
 
 Běh mám pořád rád. Pořád sleduju závody, pořád mě baví běžecké vybavení, trasy, boty, hodinky a všechno kolem. Když vyběhnu jen tak někam do lesa bez konkrétního cíle, pořád dokážu mít z běhu dobrý pocit.
 
-Jen se někde ztratila chuť trénovat.
+Jen se někde ztratila chuť **trénovat**.
 
 Možná jsem jednoduše unavený z neustálého dohánění. Možná mě zdravotní pauza zasáhla psychicky víc, než jsem si chtěl připustit. Několik měsíců jsem řešil, jestli vůbec budu moct normálně sportovat, a když ta nejistota skončila, možná jsem si ani nedal čas ji nějak zpracovat.
 
@@ -140,11 +140,11 @@ Místo toho jsem se okamžitě vrhl zpátky do tréninku.
 
 Možná jsem na sebe po návratu vytvořil příliš velký tlak. Možná jsem příliš rychle přešel od myšlenky:
 
-„Jsem šťastný, že vůbec můžu běhat.“
+**„Jsem šťastný, že vůbec můžu běhat.“**
 
 zpátky k otázce:
 
-„Proč tenhle kilometr není rychlejší?“
+**„Proč tenhle kilometr není rychlejší?“**
 
 Nebo za tím stojí něco úplně jiného.
 
@@ -152,11 +152,11 @@ Popravdě teď odpověď nemám.
 
 A tentokrát ji ani nechci za každou cenu najít v nějakém grafu.
 
-### Letošní sezonu končím
+### **Letošní sezonu končím**
 
 Nakonec jsem proto udělal rozhodnutí, které by mě ještě před pár měsíci asi ani nenapadlo.
 
-Letošní sezonu končím.
+**Letošní sezonu končím.**
 
 Ne běhání. Sezonu.
 
@@ -174,11 +174,11 @@ Jenže podle mě existuje rozdíl mezi jedním dnem, kdy se vám nechce, a něko
 
 Takže to dnes nevnímám jako vzdávání.
 
-Spíš jako úpravu plánu podle aktuální situace.
+**Spíš jako úpravu plánu podle aktuální situace.**
 
 Možná je lepší zastavit se teď než několik dalších měsíců tlačit na pilu a jednoho dne zjistit, že běžecké boty opravdu nechci ani vidět.
 
-### Možná potřebuju přestat trénovat a zase začít běhat 🌲
+### **Možná potřebuju přestat trénovat a zase začít běhat 🌲**
 
 Běhat tedy rozhodně nepřestávám.
 
@@ -188,7 +188,7 @@ Jen nějakou dobu nechci řešit, jak rychle běžím. Nechci každý výběh po
 
 Chci klidně vyběhnout do lesa a odbočit někam, kam normálně neběhám. Když budu chtít běžet pomalu, poběžím pomalu. Když budu mít chuť zrychlit, zrychlím. A když budu mít naplánovaných deset kilometrů a po sedmi zjistím, že mi to dnes stačilo, tak mi to prostě bude stačit.
 
-Možná totiž potřebuju na chvíli přestat trénovat a začít zase jenom běhat.
+Možná totiž potřebuju na chvíli **přestat trénovat a začít zase jenom běhat.**
 
 To neznamená úplně zahodit strukturu nebo přestat sportovat. S trenérem jsme se na tom bavili a domluvili jsme se, že naše spolupráce pokračuje. Jen teď bude mít trochu jiný směr.
 
@@ -198,7 +198,7 @@ Možná to zní trochu paradoxně. Mít trenéra proto, abyste na chvíli méně
 
 Mně to ale dává smysl.
 
-### Berlín 2027 🇩🇪
+### **Berlín 2027 🇩🇪**
 
 Jeden cíl na horizontu přece jen mám.
 
@@ -222,7 +222,7 @@ Nevím.
 
 A po dlouhé době mi vlastně nevadí, že něco kolem běhání nevím.
 
-Návrat na začátek
+**Návrat na začátek**
 
 Když nad tím celým přemýšlím, je na tom jedna docela zvláštní ironie.
 
@@ -234,11 +234,11 @@ A postupně jsem z toho zase dokázal vytvořit plán, výkon, čísla a očeká
 
 Možná tedy nepotřebuju nový velký cíl ani dokonalejší tréninkový plán. Možná se potřebuju vrátit právě k tomu prvnímu běhu po zdravotní pauze. K okamžiku, kdy nebylo důležité tempo ani počet kilometrů a kdy jsem nepotřeboval vědět, jestli se zlepšuju.
 
-Stačilo mi, že běžím.
+**Stačilo mi, že běžím.**
 
 Možná je právě tohle teď můůj největší běžecký cíl. Ne osobák, ne konkrétní tempo a na chvíli ani ten maraton pod tři hodiny.
 
-Chci se zase těšit, až si obuju běžecké boty.
+**Chci se zase těšit, až si obuju běžecké boty.**
 
 Takže letošní sezonu končím. Běžeckou cestu rozhodně ne.
 
@@ -246,4 +246,4 @@ Jen na ní teď na chvíli přestávám tolik sledovat ukazatele a zkusím zjist
 
 A třeba právě někde tam najdu to, co jsem v posledních měsících postupně ztratil.
 
-Radost z běhu. ❤️🏃‍♂️
+**Radost z běhu. ❤️🏃‍♂️**
